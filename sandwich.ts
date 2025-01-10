@@ -28,7 +28,7 @@ const sandwichDetector = new SandwichDetector(
 const checkBlock = async () => {
   const sandwiches = await sandwichDetector.getSandwichesForBlock(
     // Base 链的区块号
-    12345678,
+    24858873,
     "UniswapV2"  
   );
   console.log('Base链上检测到的夹子攻击:', sandwiches);
