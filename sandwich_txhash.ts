@@ -49,6 +49,6 @@ module.exports = { checkTxForSandwich };
 
 // 如果直接运行脚本
 if (require.main === module) {
-  const txHash = '0x845b5e4ab8380f9fd87a739b1da7d00528f00cd14b2c394464f75a88606df452'; // 你要检查的交易哈希
+  const txHash = '0x.....'; // 你要检查的交易哈希
   checkTxForSandwich(txHash);
 }
